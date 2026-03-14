@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.reciept-container {
+    background-image: url('crinkled_paper.png');
+    background-position: center;
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.371);
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.information_grid {
+    font-size: 20px;
+    text-align: center;
+}
+
+.title {
+    
+}
+
+.information_2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.amount_box {
+    text-align: center;
+    padding: 20px;
+}
+
+.percentages {
+    text-align: center;
+}
+
+.custom_box {
+    text-align: center;
+    padding: 10px;
+}
+
+.all_amount {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+button {
+    background-color: white;
+    border-color: rgb(220, 222, 255);
+    box-shadow: 5px 5px 5px rgb(151, 163, 216);
+    margin: 10px;
+}
+
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
+
+.in-between {
+    margin: 10px;
+    margin-bottom: -10px;
+}
+
+.question {
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+#back {
+    background-color: transparent;
+    border-color: rgba(201, 199, 199, 0.654);
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+#back:hover {
+    background-color: rgba(128, 128, 128, 0.353);
+}
+
+mx-auto {
+    text-align: center;
+}

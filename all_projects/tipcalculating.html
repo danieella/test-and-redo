@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Where's my Tip?</title>
+
+        <!-- bootstrapping -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="reciept-container">
+            <div class="container">
+                <a href='../index.html'><button id="back">Back</button></a>
+                <div class="information_grid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>MY RECEIPT</h1>
+                            <div class="information_2">
+                                <p>4375 Kearny Mesa Rd<br>SAN DIEGO, CA 92111<br>(868)123-4567</p>
+                                <hr class="dashed">
+                                <div class="in-between">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>03/13/2026</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>11:21 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="dashed">
+                                <div class="in-between">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>CHECK: 252</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>CUST: 1000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question">
+                                <p>Input your amount!<br> How much did you spend?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="amount_box">
+                    <div class="row">
+                        <div class="col-md-12">
+                            $ <input id="amount" type="number">
+                        </div>
+                    </div>
+                </div>
+                <div class="percentages">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button class="tip-button" value="10">10%</button>
+                            <button class="tip-button" value="15">15%</button>
+                            <button class="tip-button" value="20">20%</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom_box">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button id="custom_tip">Custom</button>
+                            $ <input id="custom_amount" type="number">
+                        </div>
+                    </div>
+                </div>
+                <div class="all_amount">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p id="tip_amount"></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p id="total_amount"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="tip.js"></script>
+    </body>
+</html>
